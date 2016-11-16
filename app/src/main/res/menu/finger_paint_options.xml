@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--
+    TODO place an imaage onto canvas, not just as background
+    <item
+        android:title="@string/option_add_image"
+        android:id="@+id/action_image"
+        android:icon="@drawable/image"
+        android:orderInCategory="0"
+        app:showAsAction="ifRoom"
+        />
+    -->
+    <item
+        android:title="@string/option_paint_brush_size"
+        android:id="@+id/action_brush"
+        android:icon="@drawable/brush"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        />
+    <item
+        android:title="@string/option_paint_brush_color"
+        android:id="@+id/action_color"
+        android:icon="@drawable/color"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        />
+    <item
+        android:title="@string/option_clear_canvas"
+        android:id="@+id/action_clear"
+        android:orderInCategory="98"
+        android:icon="@android:drawable/ic_input_delete"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:title="@string/option_licenses"
+        android:id="@+id/action_licenses"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/arrow_down_float"
+        app:showAsAction="never"
+        />
+    <!--
+    <item
+        android:title="@string/option_settings_canvas"
+        android:id="@+id/action_settings"
+        android:orderInCategory="101"
+        android:icon="@android:drawable/ic_menu_preferences"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="@string/option_add_text"
+        android:id="@+id/action_text"
+        android:orderInCategory="3"
+        android:icon="@drawable/text"
+
+        app:showAsAction="never"
+
+
+        />
+    <item
+        android:title="@string/option_save_image"
+        android:id="@+id/action_save"
+        android:orderInCategory="5"
+        android:icon="@drawable/save"
+        app:showAsAction="ifRoom"
+    />
+        -->
+    <item
+        android:title="@string/option_draw_style"
+        android:id="@+id/action_style"
+        android:orderInCategory="4"
+        android:icon="@drawable/style"
+        app:showAsAction="always"
+        />
+
+
+
+</menu>
